@@ -1,0 +1,30 @@
+.site-form {
+    color: #014656;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2rem;
+}
+
+.site-form .type-toggle {
+    min-width: 8.5rem;
+}
+
+.site-form .title {
+    color: #014656;
+}
+
+.site-form .time-block {
+    width: 100%;
+}
+
+.site-form .box-small {
+    display: none !important;
+}
+@media (max-width: 480px) {
+    .site-form .box-big {
+        display: none !important;
+    }
+
+    .site-form .box-small {
+        display: flex !important;
+    }
+}

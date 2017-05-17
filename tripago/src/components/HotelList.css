@@ -1,0 +1,15 @@
+.hotel-list .empty {
+    height: 8rem;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+}
+
+.hotel-list .empty-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.item{
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem; 
+}

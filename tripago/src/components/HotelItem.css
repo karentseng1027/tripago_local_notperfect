@@ -1,0 +1,121 @@
+.hotel-item {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    font-size: 1rem;
+}
+
+.hotel-item .hotel-box {
+    width: 100%;
+}
+.hotel-item .hotel-name{
+    font-family: 'Rokkitt', serif;
+    font-size: 2rem;
+}
+
+.hotel-item .hotel-name-small {
+    font-size: 1.5rem;
+}
+
+.hotel-item .user {
+    font-size: 1rem;
+    color: gray;
+}
+
+.hotel-item a{
+    color: #f6a801;
+}
+
+.hotel-item .to-right {
+    text-align: right;
+}
+.hotel-item a:hover {
+    color: #f6a801;
+}
+
+.hotel-item .vote-plus{
+    font-size: 2rem;
+}
+
+.hotel-item .top-box-small {
+    display: none;
+}
+
+.hotel-item .title {
+    font-family: 'Rokkitt', serif;
+    color: #014656;
+}
+
+.hotel-item .discription {
+    padding: 0.5rem;
+}
+
+.hotel-item .text-center {
+    text-align: center;
+}
+
+.hotel-item .card-big {
+    width: 50%;
+}
+/*.post-item .post {
+    width: 100%
+}
+
+.post-item .mood {
+    text-align: center;
+    font-size: 2rem;
+    width: 3rem;
+}
+
+.post-item .wrap {
+    width: 100%;
+    padding-left: 0.75rem;
+}
+
+.post-item .ts {
+    color: #bcbcbc;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.post-item .text {
+    white-space: pre-wrap;
+}
+
+.post-item .vote {
+    color: #bcbcbc;
+    padding-top: 0.5rem;
+}
+
+.post-item .vote .vote-plus i {
+    color: #bcdff1;
+    padding-left: 0.5rem;
+}
+
+.tooltip-inner {
+    max-width: none !important;
+}
+
+.tooltip-inner i.vote-tooltip {
+    font-size: 1.5rem;
+    width: 2.25rem;
+    line-height: 1.75;
+}
+
+.tooltip-inner i.vote-tooltip:hover {
+    color: #31b0d5
+}*/
+
+@media (max-width: 480px) {
+    .hotel-item .top-box-big {
+        display: none;
+    }
+
+    .hotel-item .top-box-small {
+        display: block;
+    }
+
+    .hotel-item .hotel-name{
+        font-family: 'Rokkitt', serif;
+        font-size: 2rem;
+    }
+}

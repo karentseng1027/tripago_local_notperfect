@@ -1,0 +1,25 @@
+.trans-form {
+    color: #014656;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2rem;
+}
+
+.trans-form .title {
+    color: #014656;
+}
+
+.trans-form .title-sm {
+    font-size: 1rem;
+}
+.trans-form .type-toggle {
+    min-width: 8.5rem;
+}
+
+.trans-form .station-input {
+    width: 100%;
+}
+
+.trans-form .card-big {
+    width: 50%;
+    padding: 5px;
+}

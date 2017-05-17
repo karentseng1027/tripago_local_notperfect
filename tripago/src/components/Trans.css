@@ -1,0 +1,27 @@
+.transportation {
+    padding: 1rem;
+}
+
+.transportation .trans {
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+.transportation .trans .label {
+    color: #00a2ad;
+    font-size: 2.3rem;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    /*text-shadow: 0 0 0.2rem rgba(253, 214, 93, 1) 0 0 1rem rgba(253, 214, 93, 1);*/
+    margin-bottom: 1rem;
+}
+.transportation .trans .loading {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
+}

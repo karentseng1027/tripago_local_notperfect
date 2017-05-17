@@ -1,0 +1,17 @@
+mockup
+tripago-server/node_modules
+tripago-server/npm-debug.log
+tripago-server.tern-project
+tripago-server/data-*.json
+tripago-server/logs.txt
+
+# Elastic Beanstalk Files
+tripago-server/.elasticbeanstalk/*
+tripago-server/!.elasticbeanstalk/*.cfg.yml
+tripago-server/!.elasticbeanstalk/*.global.yml
+~
+tripago/node_modules/*
+tripago/.tern-project
+tripago/dist/index.bundle.js*
+tripago/dist/vendor.bundle.js*
+

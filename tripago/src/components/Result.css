@@ -1,0 +1,36 @@
+.result {
+    padding: 1rem;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+.result .login {
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+.result .label {
+    color: #00a2ad;
+    font-size: 1.8rem;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    margin-top: 1rem;
+    /*margin-bottom: 1rem;*/
+}
+
+.size_control {
+    width: 25%;
+    height: 25%;
+}
+
+.result .price {
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
+}
+.title {
+    font-family: 'Rokkitt', serif;
+    color: #014656;
+}

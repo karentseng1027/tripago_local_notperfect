@@ -1,0 +1,62 @@
+.hotel-form {
+    color: #014656;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2rem;
+}
+
+.hotel-form .alert {
+    padding: 1rem;
+}
+
+.hotel-form .mood {
+    margin: 0 0 0.5rem 0;
+}
+
+.hotel-form .mood-toggle {
+    min-width: 8.5rem;
+}
+
+.hotel-form .mood i {
+    text-align: center;
+    width: 1rem;
+}
+
+.hotel-form .dateinput{
+    width: 100%;
+}
+
+.hotel-form .input {
+    width: 100%;
+    margin: 0 0 0.5rem 0;
+}
+
+.font-size {
+    font-size: 1rem;
+    color: #014656;
+}
+.alert-warning {
+    color: #014656;
+}
+.hotel-form .title {
+    font-family: 'Rokkitt', serif;
+    color: #014656;
+}
+@media (min-width: 576px) {
+    .hotel-form .mood {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .hotel-form .input {
+        margin: 0 0.5rem 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hotel-form .font-size {
+        display: none;
+    }
+
+    .hotel-form .hide {
+        display: none;
+    }
+}

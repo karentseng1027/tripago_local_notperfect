@@ -1,0 +1,71 @@
+.trans-item {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    font-size: 1rem;
+}
+.trans-item .trans-name{
+    font-family: 'Rokkitt', serif;
+    font-size: 2rem;
+}
+
+.trans-item .trans-name-small {
+    font-size: 1.5rem !important;
+}
+
+.trans-item .user{
+    font-size: 1rem;
+    color: gray;
+}
+
+.trans-item .big-icon{
+    font-size: 2rem;
+}
+
+.trans-item .small-icon {
+    font-size: 1.5rem;
+}
+
+.trans-item a{
+    color: #f6a801;
+}
+
+.trans-item a:hover {
+    color: #f6a801;
+}
+
+.trans-item .vote-plus{
+    font-size: 2rem;
+}
+
+.trans-item .top-box-small {
+    display: none;
+}
+
+.trans-item .text-center {
+    text-align: center;
+}
+
+.trans-item .title {
+    font-family: 'Rokkitt', serif;
+    color: #014656;
+}
+
+.trans-item .discription {
+    padding: 0.5rem;
+}
+.trans-item .card-big {
+    width: 50%;
+}
+
+.trans-item .to-right {
+    text-align: right;
+}
+@media (max-width: 480px) {
+    .trans-item .top-box-big {
+        display: none;
+    }
+
+    .trans-item .top-box-small {
+        display: block;
+    }    
+}

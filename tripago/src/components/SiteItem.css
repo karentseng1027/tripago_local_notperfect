@@ -1,0 +1,72 @@
+.site-item {
+    width: 100%;
+    font-family: 'Rokkitt', serif;
+    font-size: 1rem;
+}
+
+.site-item .site-name{
+    font-family: 'Rokkitt', serif;
+    font-size: 2rem;
+}
+
+.site-item .site-name-small {
+    font-size: 1.5rem;
+}
+.site-item .user {
+    font-size: 1rem;
+    color: gray;
+}
+
+.site-item a{
+    color: #f6a801;
+}
+
+.site-item a:hover {
+    color: #f6a801;
+}
+
+.site-item .big-icon{
+    font-size: 2rem;
+}
+
+.site-item .small-icon {
+    font-size: 1.5rem;
+}
+.site-item .vote-plus{
+    font-size: 2rem;
+}
+
+.site-item .box-big {
+    display: flex !important;
+}
+.site-item .top-box-small {
+    display: none;
+}
+
+.site-item .box-small {
+    display: none !important;
+}
+
+.site-item .discription {
+    padding: 0.5rem;
+}
+
+.site-item .to-right {
+    text-align: right;
+}
+@media (max-width: 480px) {
+    .site-item .top-box-big {
+        display: none;
+    } 
+
+    .site-item .top-box-small {
+        display: block;
+    }
+
+    .site-item .box-big {
+        display: none !important;
+    }
+    .site-item .box-small{
+        display: flex !important;
+    }     
+}

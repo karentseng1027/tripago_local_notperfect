@@ -1,0 +1,27 @@
+.hotel {
+    padding: 1rem;
+}
+
+.hotel .hotels {
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+.hotel .hotels .label {
+    color: #00a2ad;
+    font-size: 2.3rem;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hotel .hotels .loading {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
+}
