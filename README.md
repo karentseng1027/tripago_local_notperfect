@@ -2,38 +2,47 @@
 
 ## Prequisite
 
-### node.js
+node.js
 
-## Installation for tripago
+## Installation
 
-### cd into triapgo/, in package.json, cut package "animation..." temporariliy, then
+### tripago
 
-"""
+cd into triapgo/, in package.json, cut package "animation..." temporariliy
+
+```
 npm install
-"""
+```
+paste back "animation..."
 
-### paste back "animation..."
+## tripago-server
 
-## Installation for tripago-server
+cd into tripago-server/
 
-### cd into tripago-server/, then
-
-"""
+```
 npm install
-"""
+```
 
 ## Run
 
-### in tripago-server/, 
+### Step 1 : tripago-server
 
-"""
+cd into tripago-server/
+
+```
 npm start
-"""
+```
 
-### in tripago/,
+### Step 2 : tripago
 
-"""
+cd into tripago/
+
+```
 npm start
-"""
+```
 
-### open up Google Chrome, type url "localhost:8080"
+### Step 3 : Google Chrome
+
+```
+localhost:8080
+```
